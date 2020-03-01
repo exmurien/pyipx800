@@ -20,6 +20,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="pyipx800.py" />
+    <Compile Include="pyipx800\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="pyipxAnalog.py" />
     <Compile Include="pyipxBase.py">
       <SubType>Code</SubType>
@@ -28,11 +31,12 @@
     <Compile Include="pyipxInput.py" />
     <Compile Include="pyipxRelay.py" />
     <Compile Include="pyipxVirtuals.py" />
+    <Compile Include="setup.py" />
     <Compile Include="tests\test_pyipx.py" />
     <Compile Include="__init__.py" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="docs\" />
+    <Folder Include="pyipx800\" />
     <Folder Include="tests\" />
   </ItemGroup>
   <ItemGroup>
