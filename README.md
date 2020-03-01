@@ -1,3 +1,5 @@
+![PyPI](https://github.com/slashx57/pyipx800/workflows/Upload%20Python%20Package/badge.svg)
+
 # pyipx800
 Package Python pour contrôler le module IPX800v4 de GCE-Electronics.
 
