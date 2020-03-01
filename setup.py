@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pyipx800",
-    version="0.0.1",
+    version="0.0.2",
     author="slashx57",
     author_email="boiselet@free.fr",
     description="Package to control IPX800v4 from GCEElectronics",
